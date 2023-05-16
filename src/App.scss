@@ -1,0 +1,48 @@
+.root-wrapper {
+  width: 100vw;
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+
+  h1 {
+    margin-bottom: 5rem;
+    font-size: 5rem;
+    margin-top: 0;
+  }
+  .section-wrapper {
+    section {
+      height: 100vh;
+      text-align: center;
+      background-color: black;
+      color: var(--matrix-color);
+      padding-block: 5rem;
+      padding-inline: 14rem;
+      position: relative;
+      bottom: 0;
+      border-bottom: 2px dashed;
+    }
+    .home {
+      padding-block: 1.4rem;
+      padding-inline: 2rem;
+    }
+    .contact {
+      padding-block: 2rem;
+      padding-bottom: 0rem;
+    }
+    .project {
+      height: 100% !important;
+    }
+  }
+
+  .home-btn {
+    position: absolute;
+    bottom: 0;
+    right: 1rem;
+    font-size: 5rem;
+    color: #fff;
+    ion-icon {
+      color: var(--matrix-color);
+    }
+  }
+}

@@ -1,0 +1,66 @@
+:root {
+  font-family: "VT323", monospace;
+
+  color-scheme: light dark;
+  color: rgb(18, 255, 18);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  border: 3px solid var(--matrix-color);
+  background-color: transparent;
+  color: var(--matrix-color);
+  border-style: dashed;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+button:focus
+:focus-visible
+:focus-within {
+  border: 3px solid var(--matrix-color);
+  background-color: transparent;
+  color: var(--matrix-color);
+  border-style: dashed;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.btn-filled {
+  border: 3px solid var(--matrix-color);
+  background-color: var(--matrix-color);
+  color: black;
+}
+
+.btn:hover {
+  background-color: var(--matrix-color);
+  color: black;
+}
+
+input::placeholder{
+  color: #ffffff6d;
+}
+
+input:focus, textarea:focus{
+  outline: 0;
+}

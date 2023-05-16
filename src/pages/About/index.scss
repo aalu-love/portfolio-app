@@ -1,0 +1,34 @@
+.about-wrapper {
+  text-align: left;
+  font-size: 2rem;
+  h4 {
+    margin: 0;
+  }
+  h2 {
+    display: flex;
+    p {
+      margin: 0;
+      padding-inline: 10px;
+      color: #ff9f0e;
+    }
+  }
+  h5 {
+    color: gray;
+  }
+  .technical-skill {
+    ul {
+      display: inline-flex;
+      width: 95%;
+      justify-content: space-between;
+    }
+    .skill-image {
+      height: 110px;
+      padding: 10px;
+      display: flex;
+      transition: transform 0.2s;
+    }
+    .skill-image:hover {
+      transform: scale(1.5);
+    }
+  }
+}

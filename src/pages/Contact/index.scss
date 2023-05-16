@@ -1,0 +1,30 @@
+.contact-wrapper {
+    h1 {
+        text-align: start;
+    }
+  .form-wrapper {
+    padding: 10px;
+    width: 20%;
+    .form-item {
+      display: grid;
+      margin-block: 10px;
+      justify-items: start;
+      align-content: space-around;
+      .form-label {
+        font-size: 1.5rem;
+      }
+      .form-control {
+        width: 94%;
+        padding: 8px;
+        color: var(--matrix-color);
+        background: transparent;
+        border: 1px solid var(--matrix-color);
+      }
+    }
+    .form-btn {
+      float: left;
+      border: 2px dashed;
+      width: 100%;
+    }
+  }
+}

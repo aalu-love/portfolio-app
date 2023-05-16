@@ -1,0 +1,12 @@
+.project-wrapper {
+    padding: 10px;
+    .project-conatiner {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      grid-auto-rows: minmax(100px, auto);
+      color: black;
+      justify-items: center;
+    }
+  }
+  

@@ -1,0 +1,11 @@
+.terminal-wrapper {
+    input.input-area {
+        border: 0;
+        margin-inline: 10px;
+        justify-items: self-end;
+        background-color: transparent;
+        color: var(--matrix-color);
+        font-size: 2rem;
+        font-family: inherit;
+    }
+}

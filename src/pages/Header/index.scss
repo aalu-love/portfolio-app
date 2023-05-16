@@ -1,0 +1,25 @@
+.navbar-wrapper {
+  border-bottom: 2px dashed;
+  .header-wrapper {
+    background-color: black;
+    justify-items: center;
+    .link-container {
+      display: inline-flex;
+      padding: 0;
+      font-size: 1.4rem;
+      .list-item {
+        margin-inline: 20px;
+        list-style-type: none;
+        a {
+          color: var(--matrix-color);
+          display: flex;
+          align-items: center;
+          text-decoration: none;
+        }
+      }
+      .list-item:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
